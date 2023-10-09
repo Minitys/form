@@ -1,0 +1,32 @@
+<form
+  action="https://formspree.io/f/xzblkwqq" method="POST"
+>
+    <h4>Completa y envía el siguiente formulario</h4>
+   
+    <div class="input-group">
+        <br>
+        <label for="name">Escribe tu Nombre</label>
+        <input type="text" name="name" id="name" placeholder="Nombre">
+        
+        <label>Eres mi:</label>
+        <div class="accounttype">
+            <input type="radio" value="Familiar" id="radioOne" name="invitado" checked/>
+            <label for="radioOne" class="radio">Familiar</label>
+            <input type="radio" value="Amigo" id="radioTwo" name="invitado"/>
+            <label for="radioTwo" class="radio">Amigo</label>
+        </div>
+        
+        <label>Confirma tu asistencia:</label>
+        <div class="accounttype">
+            <input type="radio" value="Si asistiré" id="radioThree" name="asistencia" checked/>
+            <label for="radioThree" class="radio">Si asistiré</label>
+            <input type="radio" value="No podré asistir" id="radioFour" name="asistencia" />
+            <label for="radioFour" class="radio">No podré asistir</label>
+        </div>
+        
+        <label for="message">Escribe una dedicatoria para Ximena Gonzalez</label>
+        <textarea id="message" name="dedicatoria" cols="30" rows="5" placeholder="dedicatoria"></textarea>
+        
+        <input class="btn-1" type="submit" value="Enviar">
+    </div>
+</form>
